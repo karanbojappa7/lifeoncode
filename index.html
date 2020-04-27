@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Mitr&display=swap" rel="stylesheet">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/e94d846b38.js" crossorigin="anonymous"></script>
+    <script src="scripts/pace.js"></script>
+    <script src="scripts/typed.js"></script>
+    <script src="scripts/parallax.js"></script>
+    <script src="scripts/dynamicpage.js"></script>
+    <script src="scripts/jquery.ba-hashchange.min.js"></script>
+    <script src="//cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-bez@1.0.11/src/jquery.bez.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Paytone+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Knewave&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Tangerine&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <script src="scripts/mgGlitch.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.5/fullpage.min.css" />
+    <link rel="stylesheet" href="style_sheets/animate.min.css">
+    <link rel="stylesheet" href="style_sheets/styled.css">
+</head>
+
+<body>
+    <div id="preloader">
+        <div class="container">
+            <h2 class="hone">
+                L O C
+                <span class="spa1">l o c</span>
+                <span class="spa2">l o c</span>
+                <span class="spa3"><span class="life">life</span> <span class="on">on</span><span class="code">code</span></span>
+            </h2>
+        </div>
+        <div class="container d-none d-sm-block">
+            <div class="heart-rate">
+                <svg version="1.0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100px" height="73px" viewBox="0 0 150 73" enable-background="new 0 0 150 73" xml:space="preserve">
+                    <polyline fill="none" stroke="white" stroke-width="2" stroke-miterlimit="10" points="0,45.486 38.514,45.486 44.595,33.324 50.676,45.486 57.771,45.486 62.838,55.622 71.959,9 80.067,63.729 84.122,45.486 97.297,45.486 103.379,40.419 110.473,45.486 150,45.486" />
+                </svg>
+                <div class="fade-in"></div>
+                <div class="fade-out"></div>
+            </div>
+        </div>
+        <div class="container d-block d-sm-none">
+            <div class="heart-ratesm">
+                <svg version="1.0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100px" height="73px" viewBox="0 0 150 73" enable-background="new 0 0 150 73" xml:space="preserve">
+                    <polyline fill="none" stroke="white" stroke-width="2" stroke-miterlimit="10" points="0,45.486 38.514,45.486 44.595,33.324 50.676,45.486 57.771,45.486 62.838,55.622 71.959,9 80.067,63.729 84.122,45.486 97.297,45.486 103.379,40.419 110.473,45.486 150,45.486" />
+                </svg>
+                <div class="fade-insm"></div>
+                <div class="fade-outsm"></div>
+            </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-sm d-none d-sm-block  navbgss fixed-top ">
+        <div class="navbar-brand logo">
+            <img src="style_sheets/pictures/logo.png" width="18%" class="nodrag"><span class="locrev"><a href="https://www.instagram.com/life_on_code/" target="_blank">Life_On_Code </a></span>
+        </div>
+        <div class="vtabs d-none d-xl-block">
+            <input class="in" name="vtab" type="radio" id="tab1">
+
+            <label id="link1" class="labs navfont" for="tab1">Home</label>
+
+            <input class="in" name="vtab" type="radio" id="tab2">
+
+            <label id="link2" class="labs navfont" for="tab2">About</label>
+
+            <input class="in" name="vtab" type="radio" id="tab3">
+
+            <label id="link3" class="labs navfont" for="tab3">Resume</label>
+
+            <input class="in" name="vtab" type="radio" id="tab4">
+
+            <label id="link4" class="labs navfont" for="tab4">Works</label>
+
+            <input class="in" name="vtab" type="radio" id="tab5">
+
+            <label id="link5" class="labs navfont" for="tab5">Contact</label>
+
+        </div>
+    </nav>
+    <nav class="navbar fixed-top navbar-expand-sm bgsm d-block d-sm-none">
+        <img src="style_sheets/pictures/logo.png" width="18%" class="nodrag"><span class="locrev"><a href="https://www.instagram.com/life_on_code/" target="_blank">Life_On_Code </a></span>
+    </nav>
+    <section id="box1" class="section">
+        <div class="">
+            <div id="particles-js"></div>
+            <div class="container-fluid" id="box1">
+                <div class="row">
+                    <div class="col-sm-6 ">
+                        <div class="intr">
+                            <div class="d-none d-sm-block col-xs-12">
+                                <h1 class="fonsize wow fadeIn" data-wow-duration=".5s" data-wow-delay=".5s">HI,<br>
+                                    I'M <span class="bluecol  ">
+                                        KA<span class="rfont">R</span>AN</span><br>
+                                </h1>
+                            </div>
+                            <div class="d-block d-sm-none myname">
+                                <h1>Hi,<br>
+                                    I'M <span class="bluecol  ">
+                                        KARAN</span><br>
+                                </h1>
+                            </div>
+                            <p>
+                                <div class="webdev col">
+                                    <span class="slogan wow fadeIn" data-wow-duration="1s" data-wow-delay=".5s">
+                                    </span>
+                                </div>
+                            </p>
+                            <div class="col-sm-4 hirebut">
+                                <button id="hireme" type="button" class="btn hmbutton wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".5s">Hire Me <span class="fas fa-arrow-right hmar"></span></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-xl-5 offset-xl-1 d-none d-sm-block">
+                        <div class="contss klogo">
+                            <div class="glitchimg wow fadeIn" data-wow-duration="1s" data-wow-delay=".5s">
+                                <img src="style_sheets/pictures/klogowhite.png" width="100%">
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="down  d-none d-xl-block offset-1">
+                        <i class="fa fa-angle-down" aria-hidden="true"></i>
+                    </div>
+                
+                    <div class="mx-auto col-xl-5 
+                                d-none d-sm-block me">
+                        <div id="scene" class="pic">
+                            <div class="layer wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".5s" data-depth=".25">
+                                <img src="style_sheets/pictures/me.png" width="100%" class=" nodrag">
+                            </div>
+                        </div>
+
+                    </div>
+                
+                    <div class="mx-auto d-block d-sm-none mesm">
+                        <div id="scene" class="pic col-sm-12">
+                            <div class="layer" data-depth=".1">
+                                <img src="style_sheets/pictures/me.png" width="100%">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="mecover"></div>
+    <div class="lines  d-none d-sm-block">
+        <div id="linkss1" class="line1"></div>
+        <div id="linkss2" class="line2"></div>
+        <div id="linkss3" class="line3"></div>
+        <div id="linkss4" class="line4"></div>
+        <div id="linkss5" class="line5"></div>
+    </div>
+    <section id="box2" class="section">
+        <div class="container">
+            <div class="row">
+                <div class="d-block d-sm-none fon fonsize mx-auto">About</div>
+                <div class="col-sm-6 icons">
+                    <div class="col-sm-7 fast">
+                        <img src="style_sheets/pictures/fast.png" width="100%" class="abticon nodrag wow fadeIn" data-wow-duration="1s" data-wow-delay=".5s">
+                        <h4 class="text-center  iconhead navfont wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".5s">FAST</h4>
+                        <p class="text-center silvcol navfont wow fadeInUp" data-wow-duration="2s" data-wow-delay=".5s"> Lag free,interactive and Fast loading,is my highest priority.</p>
+                    </div>
+                    <div class="col-sm-7 inti">
+                        <img src="style_sheets/pictures/uiux.png" width="100%" class="abticon nodrag wow fadeIn" data-wow-duration="1s" data-wow-delay=".5s">
+                        <h4 class="text-center iconhead navfont wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".5s">Intuitive</h4>
+                        <p class=" text-center silvcol navfont wow fadeInUp" data-wow-duration="2s" data-wow-delay=".5s">Strong preference for easy to use,intuitive UI | UX.</p>
+                    </div>
+                    <div class="col-sm-7 respo">
+                        <img src="style_sheets/pictures/responsive.png" width="100%" class="abticon nodrag wow fadeIn" data-wow-duration="1s" data-wow-delay=".5s">
+                        <h4 class="text-center  iconhead navfont wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".5s">Responsive</h4>
+                        <p class=" text-center silvcol navfont wow fadeInUp" data-wow-duration="2s" data-wow-delay=".5s">Compatible on any device<br> big | small.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="sectionme" class="section">
+        <div id="box3">
+            <div id="guts"></div>
+            <h1 class="d-block d-sm-none fon  whitecol  text-center">So who am i ?</h1>
+            <div class="col-sm-6 whoami">
+                <div class="col-sm-6 mx-auto d-block ">
+                    <img src="style_sheets/pictures/whoami.jpg" width="100%" class="nodrag wow fadeIn" data-wow-duration="1s" data-wow-delay=".5s">
+                </div>
+                <div class=" col-sm-8 navfont mydet whitecol mx-auto text-center">
+                    <h1 class="whitecol navfont wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".5s">I'm Karan</h1>
+                    <p class="wow fadeInUp" data-wow-duration="2s" data-wow-delay=".5s"> A Full stack - Web Developer, I have serious passion on creating intuitive, dynamic user experience Websites.</p>
+                </div>
+                <a href="abtme/index.html"><button class="btn morebtn kmbtn mx-auto d-block wow fadeIn" data-wow-duration="2.5s" data-wow-delay=".5s">Know More</button></a>
+            </div>
+        </div>
+    </section>
+    <section id="box4" class="section">
+        <div class="">
+            <div class="container">
+                <div class="row">
+                    <h1 class="d-block d-sm-none fon fonsize mx-auto">Work</h1>
+                    <div class="col-sm-6 alwrk">
+                        <div class="col-sm-9 ">
+                            <a data-text="Previous Portfolio" href="works/second/th7.html" target="_blank" class="textOverImage alwrk wow fadeIn" data-wow-duration="1s" data-wow-delay=".5s" style="background-image:url(style_sheets/pictures/2nfolio.png)">
+                            </a>
+                        </div>
+                        <div class="col-sm-9 ">
+                            <a data-text="First Trial portfolio" href="works/first/index.html" target="_blank" class="textOverImage wow fadeIn" data-wow-duration="1.5s" data-wow-delay=".5s" style="background-image:url(style_sheets/pictures/1stfolio.png)">
+                            </a>
+                        </div>
+                        <div class="col-sm-9 ">
+                            <a data-text="Recent Work" href="works/real_estate/index.html" target="_blank" class="textOverImage wow fadeIn" data-wow-duration="2s" data-wow-delay=".5s" style="background-image:url(style_sheets/pictures/realest.png)">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section lassec">
+        <div class="sec2">
+            <div class="container">
+                <div class="row">
+                    <h1 class="d-block d-sm-none fon fonsize whitecol mx-auto">Contact</h1>
+                    <div class="col-sm-6">
+                        <h1 id="box5" class="navfont text-center whitecol gahf wow fadeIn" data-wow-duration="1s" data-wow-delay=".5s">Get a hold of me</h1>
+                        <div class="conbox">
+                                <form id="postform">
+                                    <div class=" col-sm-7 mx-auto ">
+                                        <fieldset class=" cont text-center">
+                                            <input type="text" name="name" placeholder="Enter Your name" id="name">
+
+                                            <input type="email" name="mail" placeholder="Enter Your Email" id="mail">
+
+                                            <input type="text" name="mess" placeholder="Tell me how i can help you" id="mess">
+                                        </fieldset>
+                                        <br>
+                                        <div class="buttt">
+                                            <button id="but" class="btn btn-primary mx-auto d-block btn-block senbut" name="submit">Send</button>
+                                            <br><br>
+
+                                        </div>
+                                    </div>
+                                </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section socsec">
+            <div class="social">
+                <div class="col-sm-6">
+                    <div class=" ">
+                        <ul class="socul col-xs-10 col-md-8 offset-md-2 offset-xl-4  col-xl-7  ">
+                            <li class="fb  col-xs-0 col-md-2 col-xl-0" style="height:65px;">
+                                <a href="https://www.facebook.com/karan.bojappa?fref=nf" target="_blank">
+                                    <i class="fin leffb fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li class="ins p- col-xs-0 col-md-2 col-xl-0" style="height:65px">
+
+                                <a href="https://www.instagram.com/life_on_code/" target="_blank">
+                                    <i class="fin fab fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li class="goog  col-xs-0 col-md-2 col-xl-0" style="height:65px">
+                                <a href="mailto:karanbojappa7@gmail.com?&subject=Hello">
+                                    <i class="gmlef fin far fa-envelope"></i>
+                                </a>
+                            </li>
+                            <li class="lin  col-xs-0 col-md-2 col-xl-0" style="height:65px">
+
+                                <a href="https://www.linkedin.com/in/karan-bojappa-b0a7091a5/" target="_blank">
+                                    <i class="fin fab fa-linkedin-in"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    
+                    <div class="col-sm-6 m mx-auto ">
+                        <button class="heartbtn btn offset-2" onClick="addone()" type="submit" name="post" id="sub">
+                                <form id="like">
+            <input type="hidden" value="like" name="one" id="thisone">
+                            <img src="style_sheets/pictures/heart.png" width="40px" class="nodrag">
+                        </button>
+                        <span class="silvcol navfont apri">Appreciate me!</span>
+                    </div>
+                    </form>
+                    
+                    <div class="text-center">
+                        <button id="tohome" class="btn  upar d-none d-sm-block"><i class="fas fa-sort-up"></i></button>
+                    </div>
+                    <div class="text-center copywr d-block d-sm-none">
+                        <p class="loc"><a href="https://www.instagram.com/life_on_code/" target="_blank">Life_On_Code </a><span class="heart">
+                                <img src="style_sheets/pictures/heart.png" width="10px"></span>&copy;2020</p>
+                    </div>
+                </div>
+                <div class="text-center  copywr d-none d-sm-block">
+                    <p class="loc navfont"><a href="https://www.instagram.com/life_on_code/" target="_blank">Life_On_Code </a><span class="heart">
+                            <img src="style_sheets/pictures/heart.png" width="12px" class="nodrag"></span><span class="cpy">&copy;2020</span></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="d-none d-sm-block side"></div>
+            <?php
+    $host = 'localhost';
+    $user = 'root';
+    $pass = '';
+    $db='mydb';
+    $dbh = new pdo("mysql:host=$host;dbname=$db",$user,$pass);
+    
+    $ip = $_SERVER['REMOTE_ADDR'];
+    $sql = "SELECT ip FROM visitors WHERE ip='$ip'";
+    $check=$dbh->prepare($sql);
+    $check->execute();
+    $CheckIp=$check->rowCount();
+    if($CheckIp==0)
+    {
+        $query = "INSERT INTO visitors(id,ip) VALUES(NULL,'$ip')";
+        $insertip = $dbh->prepare($query);
+        $insertip->execute();
+    }
+    
+    
+    //to display
+    $number=$dbh->prepare("SELECT ip FROM visitors");
+    $number->execute();
+    $visitors=$number->rowCount();
+    echo $visitors;
+    
+    ?>
+        <script type="text/javascript">
+        function doit(){
+          document.getElementById("thisone");
+        }
+        function addone(){
+          var foo = document.getElementById('thisone');
+          foo++;      
+          document.getElementById('thisone').$one = foo;   
+        }   
+    </script>
+        <script type="text/javascript">        
+       $(document).ready(function() {
+	$('#sub').click( function() {
+       
+		$("#sub").attr("disabled", "disabled");
+			var one = $('input[name=one]').val();
+
+        
+        			var form_data =  'one='+one;
+        			$.ajax({
+                        url: "scripts/php/backlike.php",
+                        type: "POST",
+                        data:form_data,
+                        cache: false,
+                        success: function(dataResult){
+                            var dataResult = JSON.parse(dataResult);
+                            if(dataResult.statusCode==200){
+                                $("#sub").removeAttr("disabled", "disabled");  
+					}
+					else if(dataResult.statusCode==201){   
+					}
+				}
+			});
+	});
+});
+        
+    </script> 
+        <script type="text/javascript">        
+       $(document).ready(function() {
+	$('#but').click( function() {
+       
+		$("#but").attr("disabled", "disabled");
+			var name = $('input[name=name]').val();
+			var mail = $('input[name=mail]').val();
+			var mess = $('input[name=mess]').val();
+        
+        			var form_data = 
+			  'name='+name+
+			  '&mail='+mail+
+			  '&mess='+mess;
+        
+		if(name!="" && mail!="" && mess!=""){
+           alert("Thank you !");    
+			$.ajax({
+				url: "scripts/php/process.php",
+				type: "POST",
+				data:form_data,
+				cache: false,
+				success: function(dataResult){
+					var dataResult = JSON.parse(dataResult);
+					if(dataResult.statusCode==200){
+                        $("#but").removeAttr("disabled", "disabled");  
+					}
+					else if(dataResult.statusCode==201){
+					   alert("Error occured !"); 
+					}
+				}
+			});
+		}else{
+			alert('Please fill all the field !');
+		}
+        return false;
+	});
+});
+        
+    </script>
+    
+    <script>
+        paceOptions = {
+            ajax: true,
+            document: true,
+            eventLag: false
+        };
+        Pace.on('done', function() {
+            $('#preloader').delay(4000).animate({
+                top: '-110%'
+            }, 2000, $.bez([0.19, 1, 0.22, 1]));
+        });
+    </script>
+    <script>
+        $(document).ready(function() {
+            $(window).scroll(function() {
+                var mehide = $(window).scrollTop();
+                if (mehide > 1) {
+                    $('.me').css("opacity", "0");
+                    $('.me').css("transition", "0s");
+                    $('.mesm').css("transition", "0s");
+                    $('.mesm').css("opacity", "0");
+                } else {
+                    $('.me').css("opacity", "1");
+                    $('.me').css("transition", ".5s");
+                    $('.mesm').css("transition", ".5s");
+                    $('.mesm').css("opacity", "1");
+                }
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function() {
+            $(window).scroll(function() {
+                var sidecol = $(window).scrollTop();
+                if (sidecol > 300) {
+                    $('.side').css("background", "#0e0e0e");
+
+                } else {
+
+                    $('.side').css("background", "rgb(16,48,230)");
+                    $('.side').css("background", "linear-gradient(123deg, rgba(16,48,230,1) 9%, rgba(0,57,142,1) 66%)");
+                }
+            })
+        })
+    </script>
+    <script>
+        $(document).ready(function() {
+            $(window).scroll(function() {
+                var nav = $(window).scrollTop();
+                if (nav > 300) {
+                    $('.navbgss').css("background", "#0e0e0e");
+                    $('.bgsm').css("background", "#0e0e0e");
+                    $('.logo').css("color", "#fff");
+
+                } else {
+                    $('.navbgss').css("background", "rgb(246,246,246)");
+                    $('.logo').css("color", "#000");
+                    $('nav').css("background", "linear-gradient(90deg, rgba(246,246,246,1) 53%, rgba(23,28,255,1) 53%, rgba(4,65,177,1) 100%)");
+                    $('.bgsm').css("background", "#0e0e0e");
+                }
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function() {
+            $(window).scroll(function() {
+                var linescroll = $(window).scrollTop();
+                if (linescroll > -1 && linescroll < 500) {
+                    $('.line1').css("width", "100px");
+                    $('.line1').css("transition", ".5s");
+                    $('.locrev').css("color","#fff");
+                } else {
+                    $('.line1').css("width", "40px");
+                    $('.locrev').css("color","#000");
+                }
+            });
+        });
+        $(document).ready(function() {
+            $(window).scroll(function() {
+                var linescroll = $(window).scrollTop();
+                if (linescroll > 500 && linescroll < 1560) {
+                    $('.line2').css("width", "100px");
+                    $('.line2').css("transition", ".5s");
+
+                    $('.side').html("<h1 class='abthead fon fonsize whitecol text-center'>" + "About" + "</h1>")
+                } else {
+                    $('.line2').css("width", "40px");
+                    $('.side').html("<h1>" + "</h1>");
+                }
+            });
+        });
+        $(document).ready(function() {
+            $(window).scroll(function() {
+                var linescroll = $(window).scrollTop();
+                if (linescroll > 1560 && linescroll < 2250) {
+                    $('.line3').css("width", "100px");
+                    $('.line3').css("transition", ".5s");
+                    $('.side').html("<h1 class='col-sm-12 abthead fon fonsize whitecol text-center'>" + "So Who Am I?" + "</h1>")
+                } else {
+                    $('.line3').css("width", "40px");
+                }
+            });
+        });
+        $(document).ready(function() {
+            $(window).scroll(function() {
+                var linescroll = $(window).scrollTop();
+                if (linescroll > 2250 && linescroll < 3000) {
+                    $('.line4').css("width", "100px");
+                    $('.line4').css("transition", ".5s");
+                    $('.side').html("<h1 class='abthead fon fonsize whitecol text-center'>" + "My Works" + "</h1>" + "<div class='quote navfont whitecol text-center col-sm-10 offset-1'>" + "I put my heart and my soul into my work, and have lost my mind in the process." + "</div>")
+                } else {
+                    $('.line4').css("width", "40px");
+                }
+            });
+        });
+        $(document).ready(function() {
+            $(window).scroll(function() {
+                var linescroll = $(window).scrollTop();
+                if (linescroll > 3000) {
+                    $('.line5').css("width", "100px");
+                    $('.line5').css("transition", ".5s");
+                    $('.side').html("<h1 class='abthead fon fonsize whitecol text-center'>" + "Contact" + "</h1>")
+                } else {
+                    $('.line5').css("width", "40px");
+                }
+            });
+        });
+    </script>
+    <script type="text/javascript">
+        $(".glitchimg").mgGlitch({
+            destroy: false,
+            glitch: true,
+            scale: true,
+            blend: true,
+            blendModeType: 'hue',
+            glitch1TimeMin: 600,
+            glitch1TimeMax: 900,
+            glitch2TimeMin: 10,
+            glitch2TimeMax: 115,
+            zIndexStart: 5
+        });
+    </script>
+    <script>
+        $(document).ready(function() {
+
+            $('#link1').click(function() {
+                $('html,body').animate({
+                    scrollTop: $('#box1').offset().top
+                }, 850);
+            });
+
+            $('#link2').click(function() {
+                $('html,body').animate({
+                    scrollTop: $('#box2').offset().top
+                }, 850);
+            });
+
+            $('#link3').click(function() {
+                $('html,body').animate({
+                    scrollTop: $('#box3').offset().top
+                }, 850);
+            });
+
+            $('#link4').click(function() {
+                $('html,body').animate({
+                    scrollTop: $('#box4').offset().top
+                }, 850);
+            });
+
+            $('#link5').click(function() {
+                $('html,body').animate({
+                    scrollTop: $('#box5').offset().top
+                }, 850);
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function() {
+
+            $('#tohome').click(function() {
+                $('html,body').animate({
+                    scrollTop: $('#box1').offset().top
+                }, 1000);
+            });
+        });
+    </script>
+
+    <script>
+        $(document).ready(function() {
+
+            $('#hireme').click(function() {
+                $('html,body').animate({
+                    scrollTop: $('#box5').offset().top
+                }, 1000);
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function() {
+
+            $('#linkss1').click(function() {
+                $('html,body').animate({
+                    scrollTop: $('#box1').offset().top
+                }, 850);
+            });
+
+            $('#linkss2').click(function() {
+                $('html,body').animate({
+                    scrollTop: $('#box2').offset().top
+                }, 850);
+            });
+
+            $('#linkss3').click(function() {
+                $('html,body').animate({
+                    scrollTop: $('#box3').offset().top
+                }, 850);
+            });
+
+            $('#linkss4').click(function() {
+                $('html,body').animate({
+                    scrollTop: $('#box4').offset().top
+                }, 850);
+            });
+
+            $('#linkss5').click(function() {
+                $('html,body').animate({
+                    scrollTop: $('#box5').offset().top
+                }, 850);
+            });
+        });
+    </script>
+    <script type="text/javascript" src="scripts/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <script>
+        var scene = document.getElementById('scene');
+        var parallax = new Parallax(scene);
+    </script>
+    <script type="text/javascript" src="scripts/wow.min.js"></script>
+    <script type="text/javascript" src="scripts/particles.js"></script>
+    <script type="text/javascript" src="scripts/part.js"></script>
+    <script type="text/javascript" src="scripts/main.js"></script>
+</body></html>
